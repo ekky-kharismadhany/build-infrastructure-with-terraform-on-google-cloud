@@ -8,7 +8,7 @@ A portfolio of hands-on Terraform labs provisioning infrastructure on Google Clo
 |---|---|---|
 | [`terraform-fundamentals/`](./terraform-fundamentals) | Core Terraform workflow: `init`, `plan`, `apply`; provisioning a Compute Engine instance | [README](./terraform-fundamentals/README.MD) |
 | [`infrastructure-as-code-with-terraform/`](./infrastructure-as-code-with-terraform) | Resource dependencies: implicit dependency via attribute references vs. explicit `depends_on` | [README](./infrastructure-as-code-with-terraform/README.MD) |
-| [`interact-with-terraform-modules/`](./interact-with-terraform-modules) | Building and consuming a reusable local module (`gcs-static-website-bucket`) for a GCS static website bucket | — |
+| [`interact-with-terraform-modules/`](./interact-with-terraform-modules) | Building and consuming a reusable local module (`gcs-static-website-bucket`) for a GCS static website bucket | [README](./interact-with-terraform-modules/README.MD) |
 
 ## Stack
 
