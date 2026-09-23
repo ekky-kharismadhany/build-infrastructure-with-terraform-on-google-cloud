@@ -1,9 +1,9 @@
 module "gcs-static-website-bucket" {
   source = "./modules/gcs-static-website-bucket"
 
-  name = var.name
+  name       = var.name
   project_id = var.project_id
-  location = "us-central1"
+  location   = "us-central1"
 
   lifecycle_rules = [{
     action = {
